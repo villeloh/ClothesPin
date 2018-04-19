@@ -1,27 +1,19 @@
-"use strict";
+'use strict';
 
 /**
- * Server-side Image Model
+ * Server-side Image Model (NOTE: not used atm, but it will be once everything is properly set up with a db on the server)
  * @author Ville Lohkovuori
- * 03 2018
+ * 03/04 2018
  */
 
- // 'title' is for lab purposes; it should be changed to 'price' for the actual used objects
  var imageObjModule = (function() {
 
-    var ImageObj = function (title, fileUrl) {
+    var ImageObj = function (url, price) {
 
-        this.title = title;
-        this.fileUrl = fileUrl;
+        this.url = url;
+        this.price = price;
     };
-
-    // example of adding a method:
-    /*
-    Animal.prototype.print = function () {
-        console.log('Name is :'+ this.name);
-    };
-    */
-
+	
     return { ImageObj: ImageObj }
 }());
 

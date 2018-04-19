@@ -1,0 +1,16 @@
+{
+  "name": "fetch-images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fetch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ville L.",
+  "license": "ISC",
+  "dependencies": {
+    "image-downloader": "^3.3.0",
+    "node-fetch": "^2.1.2",
+    "realm": "^2.2.20"
+  }
+}
