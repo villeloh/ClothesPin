@@ -9,6 +9,7 @@
   "author": "Ville L.",
   "license": "ISC",
   "dependencies": {
+    "fs-extra": "^5.0.0",
     "image-downloader": "^3.3.0",
     "node-fetch": "^2.1.2",
     "realm": "^2.2.20"
