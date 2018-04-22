@@ -68,7 +68,7 @@ const searches = [ ['paita', 'shirts'], ['takki', 'coats'], ['housut', 'pants'],
 
 // there's some complications (stuff becomes undefined) if we try to dl more than 400 items at once, despite the 'await' keyword,
 // so it's best to do the downloads in batches
-const numOfItemsToDl = 400;
+const numOfItemsToDl = 10;
 
 doFetch(searches, numOfItemsToDl);
 
