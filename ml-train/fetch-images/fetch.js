@@ -91,12 +91,14 @@ async function doFetch(searchArray, numOfImages) {
 
 	const resultsArray = await Promise.all(promises);
 
+	const rLength = resultsArray.length;
+	const sLength = searchArray.length - 1;
 	let j = 0;
 
-	for (let i = 0; i < resultsArray.length; i++) {
+	for (let i = 0; i < rLength; i++) {
 
 		// searchArray contains 5 items, so the index to obtain the correct categoryName must loop around
-		if (j > 4) {
+		if (j > sLength) {
 			j = 0;
 		}
 

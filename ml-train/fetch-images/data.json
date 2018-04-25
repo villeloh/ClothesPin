@@ -63,32 +63,32 @@
         "price": 54
       },
       "15": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/917d/4310b6087949ff7587e3e744b89/372277680-s.jpg",
+        "price": 7.199999809265137
+      },
+      "16": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/3/bf/dc3f0603929b2d754769d66230ca0-s.jpg",
         "price": 9
       },
-      "16": {
+      "17": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/7e1a/0eb12f7787626ee435c68b35a2a/371964449-s.jpg",
         "price": 4.5
       },
-      "17": {
+      "18": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/e0f1/e907dcd8be355e975e5319cf3b7/371119849-s.jpg",
         "price": 22.5
       },
-      "18": {
+      "19": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/9c19/ac54539ad096fd8f6b8b7527d26/371092048-s.jpg",
         "price": 5.849999904632568
       },
-      "19": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/8/53/e7a028d2c507f98b5ca4e10be0ff8-s.jpg",
+      "20": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/7db9/94ad25a6e5846452ee8263c44e7/353962425-s.jpg",
         "price": 18
       },
-      "20": {
+      "21": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/792b/f7a33b3793facacb4de9bf6b63d/371884158-s.jpg",
         "price": 6.300000190734863
-      },
-      "21": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/1/a7/379beb11725223d7d43f71302665d-s.jpg",
-        "price": 4.5
       },
       "22": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/0234/f1a93056a416f9661de127083a9/367754975-s.jpg",
@@ -107,60 +107,60 @@
         "price": 7.199999809265137
       },
       "26": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/629c/470aadd736074a42dec82b913fc/371002616-s.jpg",
-        "price": 3.5999999046325684
-      },
-      "27": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/98fa/bb00c75092cc39b066be426f34c/372210446-s.jpg",
         "price": 5.400000095367432
       },
-      "28": {
+      "27": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/a6d8/853a9c67c7744a5a00d88d21df5/371080909-s.jpg",
         "price": 25.200000762939453
       },
-      "29": {
+      "28": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/bc0f/80307d3bad9a74997691aac3423/370227820-s.jpg",
         "price": 3.5999999046325684
       },
+      "29": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/feae/a3416db6b15d6b9da2abe213314/371062935-s.jpg",
+        "price": 18
+      },
       "30": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/b5c9/4ea34b35a55dd190fac41568470/368995162-s.jpg",
-        "price": 9
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/ecf3/4aec96b0df02814adf1f8c0921f/370793147-s.jpg",
+        "price": 63
       },
       "31": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/4ef1/8b12db6b24f88ebf75e00d6e9c5/371631373-s.jpg",
+        "price": 13.5
+      },
+      "32": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/baa2/cd0fa7852913aae539dd8865f5b/371630722-s.jpg",
+        "price": 22.5
+      },
+      "33": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/addf/2ccf059fe1cb59dccb2b3b73cf5/372127746-s.jpg",
         "price": 31.5
       },
-      "32": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/3/98/56c38295a21da6301c6c45d94879a-s.jpg",
-        "price": 10.800000190734863
-      },
-      "33": {
+      "34": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/5/54/0af4c359f8539c3433b5be559b7ab-s.jpg",
         "price": 16.200000762939453
       },
-      "34": {
+      "35": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/9c46/9f5b18afab4d4cc3968a947f766/371814046-s.jpg",
         "price": 27
       },
-      "35": {
+      "36": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/2a6b/90d1e1573a65400ca25bcc779ba/364382494-s.jpg",
         "price": 7.199999809265137
       },
-      "36": {
+      "37": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/6b8c/610e11d1ecf1bca326db246de51/371717469-s.jpg",
         "price": 19.799999237060547
       },
-      "37": {
+      "38": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/2227/432e09558e2aabd1f3ad7ac4bcd/372242818-s.jpg",
         "price": 13.5
       },
-      "38": {
+      "39": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/6/1c/0261e9ae150dafc5fa361536165c0-s.jpg",
         "price": 13.5
-      },
-      "39": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/d/fb/96c60f24b0fa04820a4316b63c29e-s.jpg",
-        "price": 18
       }
     }
   },
@@ -168,84 +168,84 @@
     "name": "coats",
     "images": {
       "0": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/1f57/2302b213b4a3f328186f66349f4/371069552-s.jpg",
-        "price": 3.1500000953674316
-      },
-      "1": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/8/d6/b0a8bce5af36a79382e615c49b38c-s.jpg",
-        "price": 1.7999999523162842
-      },
-      "2": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/25f8/c9c3451e3b6ba209f9749fb90cc/361412032-s.jpg",
         "price": 1.7999999523162842
       },
-      "3": {
+      "1": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/6f10/1a596f519e65ecd8a54aac38167/361412109-s.jpg",
         "price": 0.8999999761581421
       },
-      "4": {
+      "2": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/2/12/7d3607286502874714a7b4afc0385-s.jpg",
         "price": 4.5
       },
-      "5": {
+      "3": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/4cd4/f214f2f320ef47329c061c9d142/365437926-s.jpg",
         "price": 9
       },
-      "6": {
+      "4": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/d70b/c790c2f40f3d40f6f753dabf5f1/367058591-s.jpg",
         "price": 9
       },
-      "7": {
+      "5": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/46e0/5b95885242fbaa418222e194b88/371815492-s.jpg",
         "price": 36
       },
-      "8": {
+      "6": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/8536/6372936371b463abc7942c20182/372241444-s.jpg",
         "price": 8.100000381469727
       },
+      "7": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/6956/c9a5da4d6459b418f5ab1ea2dd4/371274745-s.jpg",
+        "price": 3.5999999046325684
+      },
+      "8": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/fadb/ed07467732650391950b8e683a0/371039646-s.jpg",
+        "price": 4.5
+      },
       "9": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/dcc6/d024e25be7d7ab3eda83dc3c790/372236351-s.jpg",
-        "price": 9
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/c268/9680df5005e93a3ca727c804303/368820099-s.jpg",
+        "price": 5.400000095367432
       },
       "10": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/c9e7/d9dd59fd65c4866d349f0c3c493/369631788-s.jpg",
-        "price": 63
-      },
-      "11": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/4d2a/fa13203f7b322314f60faeee764/371716516-s.jpg",
         "price": 18
       },
-      "12": {
+      "11": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/6fc8/8f3f589d7b879fd71bc6436eeba/366089938-s.jpg",
         "price": 72
       },
-      "13": {
+      "12": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/6ce5/fc650e2a61c86faa6b64f68a639/371836899-s.jpg",
         "price": 27
       },
-      "14": {
+      "13": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/99eb/29977472b5711db72d165506ba3/369515930-s.jpg",
         "price": 7.199999809265137
       },
-      "15": {
+      "14": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/5484/d25e2ee7685664e7dfa13f62728/371764134-s.jpg",
         "price": 13.5
       },
-      "16": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/707c/bd4b539562cfb2581f6298892d7/370999536-s.jpg",
-        "price": 18
-      },
-      "17": {
+      "15": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/97b0/e187ff2101f506e85eb675d8892/370201750-s.jpg",
         "price": 27
       },
-      "18": {
+      "16": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/be06/d4bf02f8a24dcdff76dc7e6925a/364151941-s.jpg",
         "price": 85.5
       },
-      "19": {
+      "17": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/4/f3/aa6656aa3830f4137ba7bee30e7cb-s.jpg",
         "price": 7.199999809265137
+      },
+      "18": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/a1ec/cf0ef89a6d69a4127ed93b5ffa6/371578185-s.jpg",
+        "price": 7.199999809265137
+      },
+      "19": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/5598/b0d3624aa888a13f14c3488abe6/371910049-s.jpg",
+        "price": 36
       },
       "20": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/c/ac/a94ca7883387ae7cda39ccd3c832b-s.jpg",
@@ -268,24 +268,24 @@
         "price": 5.400000095367432
       },
       "25": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/4af0/36a0fc8297ee9e07e49a1344468/365353006-s.jpg",
-        "price": 4.5
-      },
-      "26": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/9f9c/2a409e480896d235a7399926c09/371572317-s.jpg",
         "price": 6.300000190734863
       },
-      "27": {
+      "26": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/acd4/c2eded19781d017b13ffd6a802d/372197805-s.jpg",
         "price": 13.5
       },
-      "28": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/9a68/a139cab37b6e6cfc7423e180b89/370367700-s.jpg",
-        "price": 7.110000133514404
-      },
-      "29": {
+      "27": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/e0ca/f124a032da68e752d3c874cff2c/371464815-s.jpg",
         "price": 6.300000190734863
+      },
+      "28": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/8576/27ece0976a90511a3ab7eded492/357841065-s.jpg",
+        "price": 45
+      },
+      "29": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/4ef6/89c037506679a455cf3ea90cb0f/361351321-s.jpg",
+        "price": 7.199999809265137
       },
       "30": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/ba95/9fa89a925e1aed5612ae76dd287/370726646-s.jpg",
@@ -312,20 +312,20 @@
         "price": 18
       },
       "36": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/74ab/cc990be72b53ed0b825a5a1a682/372279017-s.jpg",
+        "price": 18
+      },
+      "37": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/f3d1/41a16e8827e1f453fe4aaeb721e/361415102-s.jpg",
         "price": 4.5
       },
-      "37": {
+      "38": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/2bc7/35af0d5310916b47dbb7b018bdb/358281341-s.jpg",
         "price": 18
       },
-      "38": {
+      "39": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/90f2/8546f136177ebb7950ae4070902/360130097-s.jpg",
         "price": 18
-      },
-      "39": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/1/8a/9c8d79aca7690f32c2633603822d6-s.jpg",
-        "price": 3.5999999046325684
       }
     }
   },
@@ -333,84 +333,84 @@
     "name": "pants",
     "images": {
       "0": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/d1a7/510873a8a8d99400800549acbcf/371419694-s.jpg",
-        "price": 1.7999999523162842
-      },
-      "1": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/bf85/f8ab5a1072bd33fae1030c5fe2a/366061228-s.jpg",
-        "price": 9
-      },
-      "2": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/3b27/db0a5816675f61cb4a347d9aa92/370202477-s.jpg",
         "price": 9
       },
-      "3": {
+      "1": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/6601/0331621b3e74da289338d43dc1d/358198165-s.jpg",
         "price": 10.800000190734863
       },
-      "4": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/63ef/e08dbc65b2dd3e43f266fa5070f/366251420-s.jpg",
-        "price": 1.7999999523162842
-      },
-      "5": {
+      "2": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/667c/d2c67c42770ee5533ef0eff68d6/358196023-s.jpg",
         "price": 10.800000190734863
       },
-      "6": {
+      "3": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/bf6a/d925807d72b4da8a9f01e875212/358195074-s.jpg",
         "price": 12.600000381469727
       },
-      "7": {
+      "4": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/d6cb/801b018ef5be69476d876c2679a/358194599-s.jpg",
         "price": 7.199999809265137
       },
-      "8": {
+      "5": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/7139/eb0c175cd1aa46832a0b9846bdb/358197208-s.jpg",
         "price": 11.699999809265137
       },
-      "9": {
+      "6": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/2185/ab20257f978a3f70f792426cbec/358240049-s.jpg",
         "price": 18
       },
+      "7": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/25a6/9317f2be3751e288f8e74e1c229/372248009-s.jpg",
+        "price": 2.700000047683716
+      },
+      "8": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/f611/25d3035302c8f3685a80fdc64e3/371707611-s.jpg",
+        "price": 18
+      },
+      "9": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/5577/a650f466c061ee2123aa475d88a/369969571-s.jpg",
+        "price": 2.700000047683716
+      },
       "10": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/3498/99ad236748ea8e63e9401c6d714/366323029-s.jpg",
-        "price": 4.5
-      },
-      "11": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/a/c4/fc2798ad67f763889f7162978f681-s.jpg",
-        "price": 4.050000190734863
-      },
-      "12": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/f5b5/beb9122cf2ac6aacb34b641e184/372123763-s.jpg",
-        "price": 22.5
-      },
-      "13": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/f/14/1470e9deaee6d3d76789a62fd8702-s.jpg",
-        "price": 4.5
-      },
-      "14": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/9/77/003cd75e5b6a2c8e31b2d5cbd68c4-s.jpg",
-        "price": 9
-      },
-      "15": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/cce8/c09e3202941878c1ef9eabde759/363682394-s.jpg",
-        "price": 7.199999809265137
-      },
-      "16": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/29a1/98d394554f44ea113cbf124b160/362016822-s.jpg",
-        "price": 9.899999618530273
-      },
-      "17": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/7c75/3a06ecd7f47196eb0b9936ebe3e/360781522-s.jpg",
-        "price": 5.400000095367432
-      },
-      "18": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/e0d6/817bffbf7f0290d90d9d7965a29/372120493-s.jpg",
         "price": 9
       },
-      "19": {
+      "11": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/fce8/9c971be1b3baf919777c51bfa2d/368445594-s.jpg",
         "price": 13.5
+      },
+      "12": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/2e93/40a97ef4fc0c08f43efa56ea398/366011169-s.jpg",
+        "price": 45
+      },
+      "13": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/397f/6432a14daee3168d218d195ca0e/366214705-s.jpg",
+        "price": 40.5
+      },
+      "14": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/b73a/e32a45cba566c22748364e311d8/371102763-s.jpg",
+        "price": 171
+      },
+      "15": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/6f0f/4c376df2bf6e95316a168f50fa7/371024044-s.jpg",
+        "price": 27
+      },
+      "16": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/eec5/bd5785268c6c0a330d3b571ebd4/366138813-s.jpg",
+        "price": 1.9800000190734863
+      },
+      "17": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/02d2/ee32ee2f3f44bd1c6d485187714/366152650-s.jpg",
+        "price": 54
+      },
+      "18": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/dffb/512d6985d31724a5f3de02ff5b2/362884645-s.jpg",
+        "price": 13.5
+      },
+      "19": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/7/13/4440e811742d88fcadc46e5996e90-s.jpg",
+        "price": 26.90999984741211
       },
       "20": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/5a8f/50556ec9b87616076b8ba85a1c0/365512241-s.jpg",
@@ -429,16 +429,16 @@
         "price": 4.5
       },
       "24": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/5eae/8b6780e0cd2265668611a3be48e/371215488-s.jpg",
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/e5db/8d5c6ff44099a2e1d6b6be50467/371947232-s.jpg",
         "price": 18
       },
       "25": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/e9a8/b4bb1dc723fdfff11e6ee0064f2/371629935-s.jpg",
-        "price": 22.5
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/5eae/8b6780e0cd2265668611a3be48e/371215488-s.jpg",
+        "price": 18
       },
       "26": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/e5db/8d5c6ff44099a2e1d6b6be50467/371947232-s.jpg",
-        "price": 18
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/e9a8/b4bb1dc723fdfff11e6ee0064f2/371629935-s.jpg",
+        "price": 22.5
       },
       "27": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/d9b8/d9785d92c45b241c537910e49f0/359140253-s.jpg",
@@ -449,48 +449,48 @@
         "price": 4.5
       },
       "29": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/e953/6c3890e52e8a7edb21be06b88d2/354820848-s.jpg",
-        "price": 1.7999999523162842
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/9ae3/9429a9146d7cbca71a6346b9f2d/372280517-s.jpg",
+        "price": 2.700000047683716
       },
       "30": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/9017/b681eaa687814c6f164d1900ea9/364925229-s.jpg",
+        "price": 36
+      },
+      "31": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/9c00/49844e6504b573c6f1301c24358/359763390-s.jpg",
         "price": 6.300000190734863
       },
-      "31": {
+      "32": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/b695/deaf7bae6b54c45f2e04dcb2f8e/371776595-s.jpg",
         "price": 1.7999999523162842
       },
-      "32": {
+      "33": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/0934/5a7f8a2c3acb1e148aecb5d2e1d/364311076-s.jpg",
         "price": 4.5
       },
-      "33": {
+      "34": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/711f/81050f27a9191c6492eec3f8562/371885369-s.jpg",
         "price": 2.700000047683716
       },
-      "34": {
+      "35": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/944a/49e987bf5840dcff8b0287c92b3/366686168-s.jpg",
         "price": 5.400000095367432
       },
-      "35": {
+      "36": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/b22c/2b845a83a9a856e4644fef0d9bd/372187161-s.jpg",
         "price": 12.600000381469727
       },
-      "36": {
+      "37": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/4bdb/459f1627ff11015206c1b5f95ea/370792064-s.jpg",
         "price": 5.400000095367432
       },
-      "37": {
+      "38": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/7b20/8c6129d15bef0d3500b648a5e7c/367154129-s.jpg",
         "price": 7.199999809265137
       },
-      "38": {
+      "39": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/f209/0b4dd9979001059c3b6850db79a/366558220-s.jpg",
         "price": 7.199999809265137
-      },
-      "39": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/477f/52a19f81058bd58d83a6281ff22/372200789-s.jpg",
-        "price": 4.5
       }
     }
   },
@@ -498,44 +498,44 @@
     "name": "shoes",
     "images": {
       "0": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/e549/be820d0b54352c4b9c80d7c150e/371992194-s.jpg",
-        "price": 9
-      },
-      "1": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/a315/5cfabe8c2ac9602dd6ff07035f1/371778214-s.jpg",
         "price": 2.700000047683716
       },
-      "2": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/d782/5811a51cf3af1e3eb3c3aec71d5/371764362-s.jpg",
-        "price": 14.399999618530273
-      },
-      "3": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/be78/42647ccee18cfcd4d371c38d0c1/363664265-s.jpg",
-        "price": 6.300000190734863
-      },
-      "4": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/5e36/49f9421d759c23302e9387649a5/371053692-s.jpg",
-        "price": 12.600000381469727
-      },
-      "5": {
+      "1": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/7a8a/28ce5fb09f0c1e6142ad60bdaca/371539384-s.jpg",
         "price": 0.44999998807907104
       },
-      "6": {
+      "2": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/5e36/49f9421d759c23302e9387649a5/371053692-s.jpg",
+        "price": 12.600000381469727
+      },
+      "3": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/e4fa/a6f4a9e62225f3e1f7d3aa1d724/369602172-s.jpg",
         "price": 1.7999999523162842
       },
-      "7": {
+      "4": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/4dca/8fee1b16a209e78457a370b3627/372040269-s.jpg",
         "price": 6.300000190734863
       },
-      "8": {
+      "5": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/523e/818c27d4b18d47ec0e04a43af01/367683122-s.jpg",
         "price": 9
       },
-      "9": {
+      "6": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/1e07/108e17c3866448855a3570854e9/369809504-s.jpg",
+        "price": 1.7999999523162842
+      },
+      "7": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/v1/5b31/61e88da4f19d487ef19e374ea2e/369808101-s.jpg",
+        "price": 2.700000047683716
+      },
+      "8": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/8/83/19a8b358746a23108a775e788940d-s.jpg",
         "price": 0.8999999761581421
+      },
+      "9": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shirts/net/e/aa/cb282392faaa3986df98b409bcb48-s.jpg",
+        "price": 0.44999998807907104
       },
       "10": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/6854/15919ef101f22bb2c58bf90d21a/371838245-s.jpg",
@@ -578,44 +578,44 @@
         "price": 22.5
       },
       "20": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/f403/20b1b9d9e2fa110bcdfe75a61a0/372137164-s.jpg",
+        "price": 6.300000190734863
+      },
+      "21": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/5ec6/2e94808fa41d61a250ea912a9ab/372005175-s.jpg",
+        "price": 20.700000762939453
+      },
+      "22": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/50ad/b8e0d875db1c773ca08e3e28959/372137035-s.jpg",
         "price": 13.5
       },
-      "21": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/3151/8929f4dc5d79c4aa22af70f2877/371756278-s.jpg",
-        "price": 13.5
-      },
-      "22": {
+      "23": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/d2a8/db76e427b65d49bf69dadf7d497/371963733-s.jpg",
         "price": 18
       },
-      "23": {
+      "24": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/3151/8929f4dc5d79c4aa22af70f2877/371756278-s.jpg",
+        "price": 13.5
+      },
+      "25": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/2e04/576ac4acdfb52e1a74c828637c5/371338698-s.jpg",
         "price": 18
       },
-      "24": {
+      "26": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/3994/de7e05542bdf6a7a96205b6b9ea/371881281-s.jpg",
         "price": 22.5
       },
-      "25": {
+      "27": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/22b6/b75eef38292c49ed324ecad9f28/372196729-s.jpg",
         "price": 12.600000381469727
       },
-      "26": {
+      "28": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/4700/4fb1df579c450bc09986bd66fef/371725943-s.jpg",
         "price": 10.800000190734863
       },
-      "27": {
+      "29": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/b635/b5f7610b4f857a40b7f3c7a2b9b/371578477-s.jpg",
         "price": 18
-      },
-      "28": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/a/a6/f26ac118f5cc8dbcdec10165e6c15-s.jpg",
-        "price": 10.800000190734863
-      },
-      "29": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/48c5/2c7931708c37844442d223579da/371858559-s.jpg",
-        "price": 27
       },
       "30": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/3e14/130595bd426392ac010815447e5/371917751-s.jpg",
@@ -630,8 +630,8 @@
         "price": 3.509999990463257
       },
       "33": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/ccf5/3905a1cd55389c5e56eee3209dd/370965720-s.jpg",
-        "price": 15.300000190734863
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/e3a0/112f1759f28e00b46b4567acb7b/372262337-s.jpg",
+        "price": 22.5
       },
       "34": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/775d/bf427e6e14af3cd48da075a393f/353926462-s.jpg",
@@ -671,12 +671,12 @@
         "price": 9
       },
       "2": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/a338/b49a1599b999d3058d7a0b69c5b/369514982-s.jpg",
-        "price": 13.5
-      },
-      "3": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/8740/d88b82a7468252f9960def2f7ae/369665496-s.jpg",
         "price": 9
+      },
+      "3": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/a338/b49a1599b999d3058d7a0b69c5b/369514982-s.jpg",
+        "price": 13.5
       },
       "4": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/coats/net/v1/69f0/e72f06046c23d27610ccc3f0d5c/371470630-s.jpg",
@@ -723,12 +723,12 @@
         "price": 0.8999999761581421
       },
       "15": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/c629/d0c5c52acf41e84bc94e7d55969/372194972-s.jpg",
-        "price": 8.100000381469727
-      },
-      "16": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/d/16/6ecd3b46f506e687f5c87809e69af-s.jpg",
         "price": 4.5
+      },
+      "16": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/c629/d0c5c52acf41e84bc94e7d55969/372194972-s.jpg",
+        "price": 8.100000381469727
       },
       "17": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/pants/net/v1/9ac2/a4d48154a7a62d8f734bff38694/369808399-s.jpg",
@@ -743,84 +743,84 @@
         "price": 6.300000190734863
       },
       "20": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/cb64/c3a42426c8056067b2800e7aa49/372150094-s.jpg",
-        "price": 18
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/3e37/78550db33bce2d6a6c2cb6d1f42/371818130-s.jpg",
+        "price": 4.5
       },
       "21": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/3278/f4ebb19cc09a4ab08079e29b96d/371897055-s.jpg",
         "price": 99
       },
       "22": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/cb64/c3a42426c8056067b2800e7aa49/372150094-s.jpg",
+        "price": 18
+      },
+      "23": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/45dd/563d75dfaafc42d0c9c0f7c1276/367179254-s.jpg",
+        "price": 9
+      },
+      "24": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/0a84/37dbe7b0d1f653ac8e3bd6e16b8/363662357-s.jpg",
         "price": 14.399999618530273
       },
-      "23": {
+      "25": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/680a/339c4d9739afbb7e04b47246e66/372091528-s.jpg",
         "price": 7.199999809265137
       },
-      "24": {
+      "26": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/8976/c0ac650dd3ed940014ed1ac28c9/371951850-s.jpg",
         "price": 63
       },
-      "25": {
+      "27": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/47ab/221cc48dbd0ad938cb226a187cd/371593045-s.jpg",
         "price": 27
       },
-      "26": {
+      "28": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/5155/2815b0270c1ea2f360557a0dc46/371528754-s.jpg",
         "price": 1.7999999523162842
-      },
-      "27": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/0/c1/7858f25b5b56d865c766580ae0866-s.jpg",
-        "price": 90
-      },
-      "28": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/a316/c516e3436b3c68d6492507ec04d/371506451-s.jpg",
-        "price": 2.700000047683716
       },
       "29": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/shoes/net/v1/5964/158dd00923a0bdc386e1918044f/372147846-s.jpg",
         "price": 12.600000381469727
       },
       "30": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/d0d8/509cb9fdfb53a277258a39630df/372201371-s.jpg",
+        "price": 2.700000047683716
+      },
+      "31": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/06c1/8b19ecbc4fc3fd9229814b7a87b/351478039-s.jpg",
         "price": 4.5
       },
-      "31": {
+      "32": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/4869/6dd7644e259c38972781822035e/360337317-s.jpg",
         "price": 3.240000009536743
       },
-      "32": {
+      "33": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/7542/4e1ccda085c533a0dc4c6587264/371530771-s.jpg",
         "price": 13.5
       },
-      "33": {
+      "34": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/05d3/33f62ff9130ad27d83cf07d9974/371724787-s.jpg",
+        "price": 13.5
+      },
+      "35": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/4dc1/fae32aa3a42f09fb0bb9a94bc9d/371724754-s.jpg",
+        "price": 13.5
+      },
+      "36": {
+        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/046c/9ab4ac0660a5dc8d1774b7e5383/362410122-s.jpg",
+        "price": 0.8999999761581421
+      },
+      "37": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/4dfe/b12c009e695276a6a18f7b96f6b/361415123-s.jpg",
         "price": 4.5
       },
-      "34": {
+      "38": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/fc0e/fccf7b1948c169fbd5f5fd32f3f/371579177-s.jpg",
         "price": 2.700000047683716
       },
-      "35": {
+      "39": {
         "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/00dc/da7b28c6409bd8049f2a3679795/362557507-s.jpg",
         "price": 3.7799999713897705
-      },
-      "36": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/9/26/3137ce8be6af9f322ed04a2c6329d-s.jpg",
-        "price": 4.5
-      },
-      "37": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/9f78/bb802a4abfbd62541b3e610383d/359562413-s.jpg",
-        "price": 51.93000030517578
-      },
-      "38": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/e9d5/23aafb8f1698e63602548ea621d/371073718-s.jpg",
-        "price": 9
-      },
-      "39": {
-        "url": "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/hats/net/v1/9c75/84b24f645ebff71b163a73a28a0/366918631-s.jpg",
-        "price": 17.100000381469727
       }
     }
   }
