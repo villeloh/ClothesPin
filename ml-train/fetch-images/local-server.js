@@ -25,10 +25,10 @@ app.use(bodyParser({limit: '500mb'}));
 const categoryObjModule = require('./category.js');
 const Category = categoryObjModule.CategoryObj;
 
-const imageObjModule = require('./imageObj.js');
+const imageObjModule = require('./image.js');
 const ImageObj = imageObjModule.ImageObj;
 
-const ROOT_IMAGE_FOLDER = "C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/";
+const ROOT_IMAGE_FOLDER = "images/"; // and now it's a *relative* path for some reason -.-
 
 // ***************************** CREATE SCHEMAS + DB *******************************************************************************************************************************
 
@@ -76,26 +76,23 @@ app.get('/shirts', function(req, res) {
 // receives the image from the client, saves it locally and saves the image object in the db
 app.post('/', function(req, res) {
 
-    const categoryName = req.body.category;
-
-    const base64image = req.body.imgObj.image; // the actual image as a base64 string
+    const base64image = req.body.encodedImage; // the actual image as a base64 string
     const fileDataDecoded = Buffer.from(base64image,'base64');
   
     const fileName = randomString.generate(20) + '.png'; // in practice, there are never two identical names
-    // const fileType = 'image/png'; // I guess it's not needed...
 
     const imgUrl = `${ROOT_IMAGE_FOLDER}${categoryName}/${fileName}`;
 
     fs.writeFile(
-        imgUrl, 
+        imgUrl,
         fileDataDecoded, 
         function(err) { 
         
-        console.log(err);
+        console.log(err); // prints 'null' if it succeeds
     });
 
-    const price = req.body.imgObj.price;
-
+    const categoryName = req.body.category;
+    const price = Number(req.body.price);
     const imgObj = new ImageObj(imgUrl, price);
 
     saveImgObjToRealm(imgObj, categoryName);
@@ -125,7 +122,7 @@ function retrieveObjectsFromRealm(categoryName) {
 
     imageRealm.write(() => {
 
-		cat = imageRealm.objects('Category').filtered('name = ' + '"' + categoryName + '"')[0];
+		  cat = imageRealm.objects('Category').filtered('name = ' + '"' + categoryName + '"')[0];
 	
     }); // end write()
     

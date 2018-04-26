@@ -22,10 +22,10 @@ const Category = categoryObjModule.CategoryObj;
 const BASE_API_URL = 'https://api.huuto.net/1.1/';
 
 // used when making the image objects. this needs to be changed for it to work on your computer (duh)
-const ABS_ROOT_IMG_FOLDER = 'C:/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/'; 
+const ABS_ROOT_IMG_FOLDER = 'MACOS_SIERRA/Users/iosdev/Desktop/project/ClothesPin/ml-train/fetch-images/images/'; 
 
 // used when dl'ding the images... it hides the 'C:' for some reason. -.- again, change this for yourself
-const ROOT_DEST_FOLDER = '/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/images/'; 
+const ROOT_DEST_FOLDER = '/Users/iosdev/Desktop/project/ClothesPin/ml-train/fetch-images/images/'; 
 
 // ***************************** CREATE IMAGE DIRECTORIES IF THEY DON'T EXIST ******************************************************************************************************
 
