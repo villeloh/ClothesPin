@@ -64,13 +64,27 @@ app.listen(PORT, function () {
 // ********************** ENDPOINTS ********************************************************************************************************************
 
 // retrieve some sample data to show in the app
-// TODO: make the routing work dynamically so we can use one method...
-// this is just a quick hack, to see that it works
-app.get('/shirts', function(req, res) {
+app.get('/:itemType', function(req, res) {
+	
+	const itemType = req.params.itemType; // it should be a string that's taken directly from the request string ('/shirts' or whatever)
 
-    const imgObjs = retrieveObjectsFromRealm('shirts');
+    const imgObjs = retrieveObjectsFromRealm(itemType);
+	
+	// I think it's best to embed the image data itself into the response; the images are small enough that it should work out ok
+	const imgObjsWithImageData = imgObjs.map(imgObj => {
+		
+		let newObj = {};
+		
+		const fileUrl = imgObj.url; // may need to be altered to work with fs!
+		const bitmap = fs.readFileSync(fileUrl);
+		const base64image = new Buffer(bitmap).toString('base64');
+		
+		newObj.image = base64image;
+		newObj.price = imgObj.price;
+		return newObj;
+	});
 
-    res.json({ imgObjs: imgObjs });
+    res.json({ images: imgObjsWithImageData });
 });
 
 // receives the image from the client, saves it locally and saves the image object in the db
