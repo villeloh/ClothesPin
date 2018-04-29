@@ -12,6 +12,7 @@
 const fetch = require("node-fetch");
 const download = require('image-downloader');
 const fse = require('fs-extra');
+const rs = require('randomstring');
 
 const imageObjModule = require('./image.js');
 const ImageObj = imageObjModule.ImageObj;
@@ -22,10 +23,12 @@ const Category = categoryObjModule.CategoryObj;
 const BASE_API_URL = 'https://api.huuto.net/1.1/';
 
 // used when making the image objects. this needs to be changed for it to work on your computer (duh)
-const ABS_ROOT_IMG_FOLDER = 'MACOS_SIERRA/Users/iosdev/Desktop/project/ClothesPin/ml-train/fetch-images/images/'; 
+// const ABS_ROOT_IMG_FOLDER = 'C:/Users/VilleL/Desktop/backend/ClothesPin/ml-train/fetch-images/images/'; 
+const ABS_ROOT_IMG_FOLDER = 'MACOS_SIERRA/Users/iosdev/Desktop/backend/ClothesPin/ml-train/fetch-images/images/'; 
 
 // used when dl'ding the images... it hides the 'C:' for some reason. -.- again, change this for yourself
-const ROOT_DEST_FOLDER = '/Users/iosdev/Desktop/project/ClothesPin/ml-train/fetch-images/images/'; 
+// const ROOT_DEST_FOLDER = '/Users/VilleL/Desktop/backend/ClothesPin/ml-train/fetch-images/images/'; 
+const ROOT_DEST_FOLDER = '/Users/iosdev/Desktop/backend/ClothesPin/ml-train/fetch-images/images/'; 
 
 // ***************************** CREATE IMAGE DIRECTORIES IF THEY DON'T EXIST ******************************************************************************************************
 
@@ -68,7 +71,7 @@ const searches = [ ['paita', 'shirts'], ['takki', 'coats'], ['housut', 'pants'],
 
 // there's some complications (stuff becomes undefined) if we try to dl more than 400 items at once, despite the 'await' keyword,
 // so it's best to do the downloads in batches
-const numOfItemsToDl = 10;
+const numOfItemsToDl = 200;
 
 doFetch(searches, numOfItemsToDl);
 
@@ -87,6 +90,7 @@ async function doFetch(searchArray, numOfImages) {
 		promises.push(getItems(searchArray[i][0], searchArray[i][1], numOfImages, 2));
 		promises.push(getItems(searchArray[i][0], searchArray[i][1], numOfImages, 3));
 		promises.push(getItems(searchArray[i][0], searchArray[i][1], numOfImages, 4));
+		promises.push(getItems(searchArray[i][0], searchArray[i][1], numOfImages, 5));
 	}
 
 	const resultsArray = await Promise.all(promises);
@@ -141,11 +145,16 @@ function getItems(term, category, numOfImages, resultPageNumber) {
 							
 				const dlUrl = item.images[0].links.thumbnail; // 'thumbnail' = 140 x 140 pixel image; 'medium' varies, but is usually something like 400-600 x 400-600 px
 				
+				const newImageName = rs.generate() + '.png'; // name with 32 random characters
+
+				const destFilePath = ROOT_DEST_FOLDER + category + '/' + newImageName;
+
 				const options = {
 					url: dlUrl,
-					dest: ROOT_DEST_FOLDER + category // keeps the old image name
+					dest: destFilePath
 				}
 				
+				// dl and save the images
 				download.image(options)
 			    .then(({ filename, image }) => {
 						// console.log('File saved to', filename)
@@ -153,17 +162,9 @@ function getItems(term, category, numOfImages, resultPageNumber) {
 						console.log(err.message);
 			    });
 				
-				// changing the image url to point to the locally saved image. 
-				// there's probably a simpler way to do this, but rn my brain can't seem to think of it
-				const urlSplit = dlUrl.split('.');
-				const imageName = urlSplit[urlSplit.length-2];
-				const png = urlSplit[urlSplit.length-1];
-				const imageNameDotPng = imageName + '.' + png;
-				
-				const localUrl = ABS_ROOT_IMG_FOLDER + category + '/' + imageNameDotPng; // save it in a local folder under .../images/
 				const price = item.buyNowPrice * 0.9; // the 'real' sale prices are always a bit lower than those on the listed items
 				
-				const img = new ImageObj(localUrl, price);
+				const img = new ImageObj(destFilePath, price);
 				
 				items.push(img);
 		}); // end map()

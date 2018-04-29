@@ -40,7 +40,8 @@ schema: [ImageObjSchema, CategorySchema]
 });
 
 // it's overwritten each time, and made to exist if it doesn't -- perfect for our purposes!
-const file = '/Users/VilleL/Desktop/ClothesPin/ml-train/fetch-images/data.json';
+// const file = '/Users/VilleL/Desktop/backend/ClothesPin/ml-train/fetch-images/data.json';
+const file = '/Users/iosdev/Desktop/backend/ClothesPin/ml-train/fetch-images/data.json';
 
 imageRealm.write(() => {
 
