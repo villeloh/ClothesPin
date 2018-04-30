@@ -67,7 +67,7 @@ app.listen(PORT, function () {
 app.get('/:itemType', function(req, res) {
 	
 	const itemType = req.params.itemType; // it should be a string that's taken directly from the request string ('/shirts' or whatever)
-
+	console.log("itemtype: "+itemType);
     const imgObjs = retrieveObjectsFromRealm(itemType);
 	
 	// I think it's best to embed the image data itself into the response; the images are small enough that it should work out ok
@@ -84,7 +84,7 @@ app.get('/:itemType', function(req, res) {
 		return newObj;
 	});
 
-    res.json({ images: imgObjsWithImageData });
+    res.json({ imgObjsWithImageData });
 });
 
 // receives the image from the client, saves it locally and saves the image object in the db
