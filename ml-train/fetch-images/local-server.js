@@ -51,7 +51,7 @@ const CategorySchema = {
 };
 
 const imageRealm = new Realm({
-  path: 'imagez.realm',
+  path: 'images.realm',
   schema: [ImageObjSchema, CategorySchema]
 });
 

@@ -24,14 +24,14 @@ const BASE_API_URL = 'https://api.huuto.net/1.1/';
 
 // used when making the image objects. this needs to be changed for it to work on your computer (duh)
 // const ABS_ROOT_IMG_FOLDER = 'C:/Users/VilleL/Desktop/backend/ClothesPin/ml-train/fetch-images/images/'; 
-//const ABS_ROOT_IMG_FOLDER = 'MACOS_SIERRA/Users/iosdev/Desktop/backend/ClothesPin/ml-train/fetch-images/images/'; 
-const ABS_ROOT_IMG_FOLDER = 'MACOS_SIERRA/Users/iosdev/Desktop/ClothesPin-Backend/ClothesPin/ml-train/fetch-images/images/'; 
+const ABS_ROOT_IMG_FOLDER = 'MACOS_SIERRA/Users/iosdev/Desktop/backend/ClothesPin/ml-train/fetch-images/images/'; 
+// const ABS_ROOT_IMG_FOLDER = 'MACOS_SIERRA/Users/iosdev/Desktop/ClothesPin-Backend/ClothesPin/ml-train/fetch-images/images/'; 
 
 
 // used when dl'ding the images... it hides the 'C:' for some reason. -.- again, change this for yourself
 // const ROOT_DEST_FOLDER = '/Users/VilleL/Desktop/backend/ClothesPin/ml-train/fetch-images/images/'; 
-//const ROOT_DEST_FOLDER = '/Users/iosdev/Desktop/backend/ClothesPin/ml-train/fetch-images/images/'; 
-const ROOT_DEST_FOLDER = '/Users/iosdev/Desktop/ClothesPin-Backend/ClothesPin/ml-train/fetch-images/images/'; 
+const ROOT_DEST_FOLDER = '/Users/iosdev/Desktop/backend/ClothesPin/ml-train/fetch-images/images/'; 
+// const ROOT_DEST_FOLDER = '/Users/iosdev/Desktop/ClothesPin-Backend/ClothesPin/ml-train/fetch-images/images/'; 
 
 // ***************************** CREATE IMAGE DIRECTORIES IF THEY DON'T EXIST ******************************************************************************************************
 
@@ -64,37 +64,61 @@ const CategorySchema = {
 };
 
 const imageRealm = new Realm({
-  path: 'imagez.realm',
+  path: 'images.realm',
   schema: [ImageObjSchema, CategorySchema]
 });
 
 // *************************** DL THE IMAGES & SAVE THEM TO THE DB ******************************************************************************************************************
 
-const searches = [ ['paita', 'shirts'], ['takki', 'coats'], ['housut', 'pants'], ['kengät', 'shoes'], ['hattu', 'hats'] ];
+const searches = [ 
+	['paita', 'shirts'], 
+	['takki', 'coats'], 
+	['housut', 'pants'], 
+	['kengät', 'shoes'], 
+	['hattu', 'hats'], 
+	['hanskat', 'gloves'] 
+];
 
 // there's some complications (stuff becomes undefined) if we try to dl more than 400 items at once, despite the 'await' keyword,
 // so it's best to do the downloads in batches
-const numOfItemsToDl = 200;
+const numOfItemsToDl = 100;
 
-doFetch(searches, numOfItemsToDl);
+// USAGE: see IMPORTANT NOTE in the beginning of doFetch() method!
+doFetch(searches, numOfItemsToDl, 2);
+// doFetch(searches, numOfItemsToDl, 2);
+// doFetch(searches, numOfItemsToDl, 3);
+// doFetch(searches, numOfItemsToDl, 4);
+// ... etc. uncomment and do these ONE AT A TIME !!!
 
 // it's needed as a wrapper function in order to use the 'await' keyword
-async function doFetch(searchArray, numOfImages) {
+async function doFetch(searchArray, numOfImages, pageNum) {
 
 	const promises = [];
 
 	for (let i = 0; i < searchArray.length; i++) {
-	
-		// to get four pages of results for each search... inelegant, but ehh, it works
-		// NOTE: if you want pages 5++, you'll have to manually update these calls for now.
-		// if you don't do that, you'll get the same images all over again and they'll
-		// overwrite the old ones!
-		promises.push(getItems(searchArray[i][0], searchArray[i][1], numOfImages, 1));
-		promises.push(getItems(searchArray[i][0], searchArray[i][1], numOfImages, 2));
-		promises.push(getItems(searchArray[i][0], searchArray[i][1], numOfImages, 3));
-		promises.push(getItems(searchArray[i][0], searchArray[i][1], numOfImages, 4));
-		promises.push(getItems(searchArray[i][0], searchArray[i][1], numOfImages, 5));
-	}
+
+		/* IMPORTANT NOTE!!!!
+
+		Originally, I wrote this method so that we could retrieve 5 or more pages with one call of doFetch().
+		However, it seems the database gets crazy somehow as a result, saving god knows what to 
+		who knows where :D Therefore, in order to get enough images, you'll have to run 
+		'node fetch' many times, increasing the last argument ('pageNum') after each call:
+
+		1. doFetch(searches, numOfItemsToDl, 1);
+		2. doFetch(searches, numOfItemsToDl, 2);
+		... etc (another example above where the call is)
+
+		NOTE: be sure to do these calls ONE AT A TIME !!!!!!!!!
+
+		NOTE2: The number of existing pages of images depends on the size of the batch of images 
+		to be dl'ded ('numOfItemsToDl' above). If you take 100 images at a time, there
+		should in theory be about 160 pages of shirts, for example... The search sometimes 
+		returns way less items than you ask for, though. I think we should aim for 1000-2000 
+		images (per category) (thankfully all categories are dl'ded with each call)
+		*/
+
+		promises.push(getItems(searchArray[i][0], searchArray[i][1], numOfImages, pageNum));
+	} // end for-loop
 
 	const resultsArray = await Promise.all(promises);
 
@@ -110,6 +134,7 @@ async function doFetch(searchArray, numOfImages) {
 		}
 
 		let categoryName = searchArray[j][1];
+		// console.log("categoryName: " + categoryName);
 		j++;
 	
 		// pretty damn 'loopy' solution, but we need the relevant categoryName for this call, and it's not returned with the results.
@@ -160,9 +185,9 @@ function getItems(term, category, numOfImages, resultPageNumber) {
 				// dl and save the images
 				download.image(options)
 			    .then(({ filename, image }) => {
-						// console.log('File saved to', filename)
+					// console.log('File saved to', filename)
 			    }).catch((err) => {
-						console.log(err.message);
+					console.log(err.message);
 			    });
 				
 				const price = item.buyNowPrice * 0.9; // the 'real' sale prices are always a bit lower than those on the listed items
@@ -177,34 +202,44 @@ function getItems(term, category, numOfImages, resultPageNumber) {
 	.catch(error => console.log(error.message));
 } // end getItems()
 
-function saveToRealmDb(arrayOfImageObjs, categoryName) {
+function saveToRealmDb(arrayOfImageObjs, category) {
+
+	// console.log("called saveToRealm with this categoryName: " + category);
 
 	imageRealm.write(() => {
 
 		// apparently backticks are a no-no here... looks weird but it works, so, whatever
-		let existingCat = imageRealm.objects('Category').filtered('name = ' + '"' + categoryName + '"')[0];
+		let existingCat = imageRealm.objects('Category').filtered('name = ' + '"' + category + '"')[0];
 
 		if (existingCat === null || existingCat === undefined) {
 		
-			const newCat = new Category(categoryName, arrayOfImageObjs);
+			const newCat = new Category(category, arrayOfImageObjs);
 
 			imageRealm.create('Category', {name: newCat.name, images: newCat.images});
 			console.log("wrote new category to Realm!");
 
 		} else {
 
-				arrayOfImageObjs.map(imageObj => {
+			arrayOfImageObjs.forEach(imageObj => {
 
-					existingCat.images.push(imageObj);			
-					console.log("wrote objects to existing Realm category!");
-				});
+				console.log("url of item to be saved to db: " + imageObj.url)
+
+				existingCat.images.push(imageObj);			
+				// console.log("wrote objects to existing Realm category!");
+			});
 		}	
 	}); // end write()
 } // end saveToRealmDb()
 
 function createImageFolders() {
 
-	const imgFolderPaths = ['./images/shirts', './images/coats', './images/shoes', './images/pants', './images/hats'];
+	const imgFolderPaths = [
+		'./images/shirts', 
+		'./images/coats', 
+		'./images/shoes', 
+		'./images/pants', 
+		'./images/hats', 
+		'./images/gloves'];
 
 	imgFolderPaths.map(path => {
 	
