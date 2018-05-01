@@ -84,7 +84,7 @@ const searches = [
 const numOfItemsToDl = 100;
 
 // USAGE: see IMPORTANT NOTE in the beginning of doFetch() method!
-doFetch(searches, numOfItemsToDl, 2);
+doFetch(searches, numOfItemsToDl, 1);
 // doFetch(searches, numOfItemsToDl, 2);
 // doFetch(searches, numOfItemsToDl, 3);
 // doFetch(searches, numOfItemsToDl, 4);

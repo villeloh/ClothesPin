@@ -90,6 +90,7 @@ app.get('/:itemType', function(req, res) {
 // receives the image from the client, saves it locally and saves the image object in the db
 app.post('/', function(req, res) {
 
+	const categoryName = req.body.category;
     const base64image = req.body.encodedImage; // the actual image as a base64 string
     const fileDataDecoded = Buffer.from(base64image,'base64');
   
@@ -104,8 +105,7 @@ app.post('/', function(req, res) {
         
         console.log(err); // prints 'null' if it succeeds
     });
-
-    const categoryName = req.body.category;
+	
     const price = Number(req.body.price);
     const imgObj = new ImageObj(imgUrl, price);
 
