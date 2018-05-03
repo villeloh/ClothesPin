@@ -6,7 +6,7 @@
  * allow the user to send additional sales data, all without the hurdles of managing a remote db
  * installed on Linux (which I *hate* -.-).
  * @author Ville Lohkovuori
- * 04 2018
+ * 04/05 2018
  */
 
  // ***************************** CONSTANTS ETC *******************************************************************************************************************************
@@ -67,10 +67,9 @@ app.listen(PORT, function () {
 app.get('/:itemType', function(req, res) {
 	
 	const itemType = req.params.itemType; // it should be a string that's taken directly from the request string ('/shirts' or whatever)
-	console.log("requested itemtype: " + itemType);
     const imgObjs = retrieveObjectsFromRealm(itemType);
 	
-	// I think it's best to embed the image data itself into the response; the images are small enough that it should work out ok
+	// I thought it best to embed the image data itself into the response; the images are small enough that it should work out ok
 	const jsonImgObjsWithImageData = imgObjs.map(imgObj => {
 		
 		let newObj = {};
@@ -94,7 +93,7 @@ app.post('/', function(req, res) {
     const base64image = req.body.encodedImage; // the actual image as a base64 string
     const fileDataDecoded = Buffer.from(base64image,'base64');
   
-    const fileName = randomString.generate(20) + '.png'; // in practice, there are never two identical names
+    const fileName = randomString.generate() + '.png'; // in practice, there are never two identical names
 
     const imgUrl = `${ROOT_IMAGE_FOLDER}${categoryName}/${fileName}`;
 
@@ -104,15 +103,23 @@ app.post('/', function(req, res) {
         function(err) { 
         
         console.log(err); // prints 'null' if it succeeds
+
+        // not sure whether this really works or not... meh, it's error handling of *some* sort :p
+        if (err) {
+
+            res.json({error: err, status: 'failed to write file to local folder!'});
+            return; // not sure if res.json() already does this or not...
+        }
     });
 	
     const price = Number(req.body.price);
     const imgObj = new ImageObj(imgUrl, price);
 
+    // should have a try-catch here, ideally, but I'm not sure
+    // how they work with Realm and there's no time to study (and debug) that now
     saveImgObjToRealm(imgObj, categoryName);
 
-    res.json({ status: 'ok'}); // rn it always succeeds... TODO: I'll put some try-catches or whatever
-
+    res.json({ status: 'ok'});
   }); // end post('/')
 
 // ********************** FUNCTIONS ********************************************************************************************************************

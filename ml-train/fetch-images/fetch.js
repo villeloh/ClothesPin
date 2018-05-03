@@ -4,7 +4,7 @@
  * For fetching the training set images from the Huuto.net API and saving them
  * into a local Realm database (a db for objects, basically).
  * @author Ville Lohkovuori
- * 04 2018
+ * 04/05 2018
  */
 
 // *************************** CONSTANTS ETC *************************************************************************
@@ -43,8 +43,6 @@ createImageFolders();
 // NOTE: in order for this to work, you'll need to do 'npm install' in the fetch-images folder. that should install the Realm database (along with all the other dependencies).
 // I recommend a soft called Realm Studio for viewing the contents of the database (it's very easy to install and use; there's zero configuration involved).
 
-// NOTE2: Eventually, we'll want the database to be remote, so that users can add their own images to it. This remains a major unknown and TODO at this point.
-
 const Realm = require('realm');
 
 const ImageObjSchema = {
@@ -81,7 +79,9 @@ const searches = [
 
 // there's some complications (stuff becomes undefined) if we try to dl more than 400 items at once, despite the 'await' keyword,
 // so it's best to do the downloads in batches
-const numOfItemsToDl = 100;
+// NOTE: for some reason, the api stopped giving us more than 50 images at a time (per category), no matter
+// the value that we set here.
+const numOfItemsToDl = 50;
 
 // USAGE: see IMPORTANT NOTE in the beginning of doFetch() method!
 doFetch(searches, numOfItemsToDl, 1);
@@ -102,7 +102,7 @@ async function doFetch(searchArray, numOfImages, pageNum) {
 		Originally, I wrote this method so that we could retrieve 5 or more pages with one call of doFetch().
 		However, it seems the database gets crazy somehow as a result, saving god knows what to 
 		who knows where :D Therefore, in order to get enough images, you'll have to run 
-		'node fetch' many times, increasing the last argument ('pageNum') after each call:
+		'node fetch' many times, increasing the last argument ('resultPageNumber') after each call:
 
 		1. doFetch(searches, numOfItemsToDl, 1);
 		2. doFetch(searches, numOfItemsToDl, 2);
@@ -134,7 +134,6 @@ async function doFetch(searchArray, numOfImages, pageNum) {
 		}
 
 		let categoryName = searchArray[j][1];
-		// console.log("categoryName: " + categoryName);
 		j++;
 	
 		// pretty damn 'loopy' solution, but we need the relevant categoryName for this call, and it's not returned with the results.
@@ -204,8 +203,6 @@ function getItems(term, category, numOfImages, resultPageNumber) {
 
 function saveToRealmDb(arrayOfImageObjs, category) {
 
-	// console.log("called saveToRealm with this categoryName: " + category);
-
 	imageRealm.write(() => {
 
 		// apparently backticks are a no-no here... looks weird but it works, so, whatever
@@ -222,10 +219,8 @@ function saveToRealmDb(arrayOfImageObjs, category) {
 
 			arrayOfImageObjs.forEach(imageObj => {
 
-				console.log("url of item to be saved to db: " + imageObj.url)
-
 				existingCat.images.push(imageObj);			
-				// console.log("wrote objects to existing Realm category!");
+				console.log("wrote objects to existing Realm category!");
 			});
 		}	
 	}); // end write()

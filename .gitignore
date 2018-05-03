@@ -1,15 +1,2 @@
 **/node_modules
-**/Images
 **.DS_Store
-
-# the image urls are local, so each of us should have their own images and db
-**/image.realm.management
-**/images.realm.management
-**/imagez.realm.management
-**/.realm.management
-**.realm.management
-**.realm 
-**.lock
-**.png
-**.jpg
-**data.json

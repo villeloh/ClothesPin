@@ -4,7 +4,7 @@
  * Convert the objects that are stored in the Realm database to a format that is 
  * readable with Python; i.e., a .json file.
  * @author Ville Lohkovuori
- * 04 2018
+ * 04/05 2018
  */
 
 const Realm = require('realm');
