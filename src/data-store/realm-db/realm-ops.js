@@ -85,7 +85,7 @@ exports.retrieveAllCategories = (realmPath) => {
 
 	imageRealm.write(() => {
 
-		cats = imageRealm.objects('Category')[0]; // why it's an array only God can tell... -.-
+		cats = imageRealm.objects('Category'); // Note: it's an array... it caused some problems earlier, but seems to be fine now
 	});
 	return cats;
 } // end retrieveAllCategories()
